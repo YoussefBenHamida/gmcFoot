@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+
+/* Filter CSS */
+.filter{
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  top: 130px;
+  left: 0;
+  width: 100%;
+  color: rgb(86, 86, 86);
+  padding: 15px;
+  backdrop-filter: blur(10px);
+  z-index: 999;
+}
+/* Nav bar match css */
+.navBarMatch{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  border-bottom: solid rgb(61, 102, 61) 0.1em;
+  justify-content: space-evenly;
+  top: 0;
+  left: 0;
+  padding: 15px;
+  z-index: 1000;
+}
+
+/* card css */
+
+.cardDisplay{
+  padding: 10%;
+}
+.cardSpace{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.card{
+  background-color: rgb(41, 118, 81);
+  height: 200px;
+  width: 400px;
+}
+
+/* display match css */
+.creeUnMatch{
+  display: flex;
+  justify-content: center;
+  display: grid;
+  grid-row-gap: 20px;
+  padding-top: 10px;
+}
+.creeMatchInputs{
+  width: 300px;
+}
+

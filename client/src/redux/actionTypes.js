@@ -1,0 +1,7 @@
+export const REGISTER_USER="REGISTER_USER"
+export const LOGIN_USER="LOGIN_USER"
+export const GET_Auth_USER="GET_Auth_USER"
+export const LOGOUT_USER="LOGOUT_USER"
+export const GET_MATCHS = "GET_MATCHS"
+export const ADD_MATCH_SUCCESS = "ADD_MATCH_SUCCESS"
+export const ADD_MATCH_FAILURE = "ADD_MATCH_FAILURE"
