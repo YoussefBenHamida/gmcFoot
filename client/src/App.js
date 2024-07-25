@@ -10,11 +10,11 @@ import Home from './components/Home';
 function App() {
   const dispatch=useDispatch()
 
-  const auth = () => dispatch(getAuthUser());
+  const auth = () => dispatch(getAuthUser(dispatch));
 
   useEffect(() => {
     auth();
-  }, [dispatch]);
+  }, []);
 
   return (
     <div className="App">
